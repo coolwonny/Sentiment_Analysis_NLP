@@ -10,13 +10,13 @@ We had to take out some redundant articles for 'bitcoin' after having recognized
 
 >#### Statistics of Bitcoin Sentiment 
 
-![](bitcoin_score.png)
+![](https://github.com/coolwonny/Sentiment_Analysis_NLP/blob/master/Images/bitcoin_score.png)
 
 
    
 >#### Statistics of Ethereum Sentiment  
 
-![](ethereum_score.png)
+![](https://github.com/coolwonny/Sentiment_Analysis_NLP/blob/master/Images/ethereum_score.png)
 
 >#### Which coin had the highest mean positive score?
 
@@ -48,7 +48,7 @@ Following the process, we generated N-grams counter to see in details what pairs
  (('bitcoin', 'scam'), 6),   
  (('profile', 'twitter'), 6)]      
      
-![](wc_bitcoin.png)   
+![](https://github.com/coolwonny/Sentiment_Analysis_NLP/blob/master/Images/wc_bitcoin.png)   
 
 > #### Ethereum   
 [(('char', 'ethereum'), 10),    
@@ -62,7 +62,7 @@ Following the process, we generated N-grams counter to see in details what pairs
  (('ethereum', 'would'), 5),   
  (('would', 'need'), 5)]    
     
-![](wc_ethereum.png)   
+![](https://github.com/coolwonny/Sentiment_Analysis_NLP/blob/master/Images/wc_ethereum.png)   
    
 ## Named Entity Recognition(NER)
 Fianlly, we built a NER model for both coins and visualize the tags using `spacy`.
@@ -70,12 +70,12 @@ Fianlly, we built a NER model for both coins and visualize the tags using `spacy
 Here are the snapshots of the results:
 >### Bitcoin   
 
-![](ner_bitcoin.png)
+![](https://github.com/coolwonny/Sentiment_Analysis_NLP/blob/master/Images/ner_bitcoin.png)
 
 
 >#### Ethereum   
 
-![](ner_ethereum.png)
+![](https://github.com/coolwonny/Sentiment_Analysis_NLP/blob/master/Images/ner_ethereum.png)
 
 ## Conclusion
 
