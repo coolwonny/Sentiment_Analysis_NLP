@@ -1,7 +1,7 @@
 # Sentiment Analysis: NLP
 
 In this project, we are going to import the latest news articles from an open source, applying natural language processing(NLP) to understand the sentiment in the articles. There are three main parts where we can see the  sentiment scores of each article in the first stage. After that, we will find out what are the common words and phrases that frequently appear along with the topic by preprocessing the articles using fundamental NLP techniques. Finally, we are to build a Named Entity Recognition(NER) model to visualize what specific entities could be identified in all the articles.     
-(Jupyter Notebook here: [crypto_sentiment.ipynb](https://github.com/coolwonny/Sentiment_Analysis_NLP/blob/master/crypto_sentiment.ipynb))
+
 
 ## Sentiment Analysis
 
@@ -83,5 +83,8 @@ Here are the snapshots of the results:
 Both keywords showed a neutral-biased sentiment overall. However, we found that ***Ethereum had more positive sentiment over negative*** while Bitcoin is the opposite. Will this imply that Ethereum gets more favor over Bitcoin in the cryptocurrency market? We may not determine it only based on this analysis as there were overwhelmingly more articles regarding bitcoin than ethereum when querying the newsapi.    
 
 We can interpret the result of the top-10 words that bitcoin comes with more issue relating to Twitter and entrepreneurs like **Elon Musk**(showed up 16 times) and **Bill Gates**(10 times), together with politicians like **Barrack Obama**(10 times) and **Joe Biden**(7 times). This trend looks outstanding when comparing with that of ethereum's where the most common words were **Ethereum**, **Bitcoin** and **Char**, we could hardly find any other words relating to any economic and political features. This is an interesting finding that we might say ***Bitcoin seems more reflective of current social issues or more complexed in trend than ethereum***. Ethereum resonances with more technical and intrinsic keywords rather than current trend, according to the analysis of recent 100 articles.    
+
+    
+(Jupyter Notebook: [crypto_sentiment.ipynb](https://github.com/coolwonny/Sentiment_Analysis_NLP/blob/master/crypto_sentiment.ipynb))
 
 
